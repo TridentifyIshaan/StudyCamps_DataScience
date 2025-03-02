@@ -1,0 +1,26 @@
++----------------+       +------------------+       +----------------+
+|     Authors    |       |       Books      |       |     Members    |
++----------------+       +------------------+       +----------------+
+| author_id (PK) |<------| book_id (PK)     |       | member_id (PK) |
+| name           |       | title            |       | name           |
+| birthdate      |       | author_id (FK)   |       | email          |
+| nationality    |       | published_year   |       | membership_date|
++----------------+       | genre            |       +----------------+
+                         | available_copies |       |
++----------------+       +------------------+       |
+|    Written By  |            |                     |
++----------------+            |                     |
+| author_id (FK) |            |                     |
++----------------+            |                     |
+                       +-----------------+          |
++----------------+     |      Loans      |<---------+
+|    Includes    |     +-----------------+
++----------------+     | loan_id (PK)    |
+|  book_id (FK)  |     | book_id (FK)    |
++----------------+     | member_id (FK)  |
+                       | loan_date       |
++----------------+     | return_date     |
+|   Borrowed By  |     +-----------------+
++----------------+
+| member_id (FK) |
++----------------+

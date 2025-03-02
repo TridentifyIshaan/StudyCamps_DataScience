@@ -1,0 +1,73 @@
+STAGE 1:- *ASSIGNMENT*
+
+COMPLETE THE FOLLOWING OOPS QUESTIONS AND SOLVE ANY THREE HARD OPPS QUESTIONS.
+
+
+
+OOPS Questions:
+
+1. Write a Python program to create a person class. Include attributes  like name, country and date of birth. Implement a method to  determine the personâ€™s age. 
+2. Write a Python program to create a class representing a bank. Include methods for managing customer accounts and transactions.
+3. Write a Python program to create a class representing a shopping cart. Include methods for adding and removing items, and calculating the total price. 
+4. Write a Python program to create a calculator class. Include methods for basic arithmetic operations.
+
+
+
+Hard OOPS (after OOPS completion)
+
+1. Design a Library Management System
+Requirements:
+Implement classes for Book, Member, Librarian, and Library.
+Book should have attributes like title, author, ISBN, and status.
+Member should have attributes like name, member_id, and a list of borrowed books.
+Librarian should have attributes like name and employee_id.
+Library should have a collection of books and methods to add/remove books, register members, lend books, and return books.
+
+2. Build a Banking System
+Requirements:
+Implement classes for Account, SavingsAccount, CheckingAccount, and Bank.
+Account should be a base class with attributes like account_number, balance, and methods for deposit and withdraw.
+SavingsAccount should inherit from Account and add an attribute for interest rate.
+CheckingAccount should inherit from Account and add an attribute for overdraft limit.
+Bank should manage multiple accounts and provide methods to create accounts, transfer money, and generate account statements.
+
+3. Implement a Parking Lot System
+Requirements:
+Implement classes for Vehicle, Car, Bike, ParkingSpot, ParkingLot.
+Vehicle should be a base class with attributes like license_plate and vehicle_type.
+Car and Bike should inherit from Vehicle.
+ParkingSpot should have attributes like spot_id, is_available, and vehicle.
+ParkingLot should manage multiple parking spots and provide methods to park and retrieve vehicles, and to get the status of the parking lot.
+
+4. Develop a Restaurant Ordering System
+Requirements:
+Implement classes for MenuItem, Order, Customer, and Restaurant.
+MenuItem should have attributes like name, price, and category.
+Order should have attributes like order_id, customer, list_of_items, and total_price.
+Customer should have attributes like name, phone_number, and a list of orders.
+Restaurant should manage the menu and orders, and provide methods to add/remove menu items, place orders, and calculate total sales.
+
+5. Create an E-commerce System
+Requirements:
+Implement classes for Product, Customer, Order, ShoppingCart, and ECommercePlatform.
+Product should have attributes like product_id, name, price, and stock.
+Customer should have attributes like customer_id, name, and a list of orders.
+Order should have attributes like order_id, customer, list_of_products, and total_amount.
+ShoppingCart should manage the items a customer wants to purchase.
+ECommercePlatform should manage products, customers, and orders, and provide methods for customers to add products to their cart, place orders, and check order status.
+
+6. Simulate a Zoo Management System
+Requirements:
+Implement classes for Animal, Mammal, Bird, Reptile, ZooKeeper, and Zoo.
+Animal should be a base class with attributes like name, species, age, and methods like eat and sleep.
+Mammal, Bird, and Reptile should inherit from Animal and add specific attributes/methods.
+ZooKeeper should have attributes like name, employee_id, and methods to take care of animals.
+Zoo should manage a collection of animals and provide methods to add/remove animals, assign zookeepers, and generate reports on animals.
+
+7. Implement a School Management System
+Requirements:
+Implement classes for Person, Student, Teacher, Course, and School.
+Person should be a base class with attributes like name and age.
+Student and Teacher should inherit from Person and add specific attributes/methods.
+Course should have attributes like course_id, name, and students.
+School should manage students, teachers, and courses, and provide methods to enroll students, assign teachers, and generate reports on courses.

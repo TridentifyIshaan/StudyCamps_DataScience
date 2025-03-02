@@ -1,0 +1,35 @@
+   +-------------------+        +--------------------+        +--------------------+       +---------------------+
+   |      Students     |        |       Courses      |        |  Instructors       |       |     Departments     |
+   +-------------------+        +--------------------+        +--------------------+       +---------------------+
+   | student_id (PK)   |--------| course_id (PK)     |        | instructor_id(PK)  |-------| department_id(PK)   |
+   | name              |        | course_name        |        | name               |       | department_name     |
+   | email             |        | course_desc        |        | email              |       | department_head(FK) |
+   | date_of_birth     |        | department_id (FK) |        | department_id (FK) |       +---------------------+
+   | department_id(FK) |        +--------------------+        +--------------------+
+   +-------------------+         |
+                                 |
+                                 | (Student_ID, Course_ID)
+                                 |
+   +----------------+            |
+   |    Enrolls     |            |
+   +----------------+            |
+   | student_id(FK) |            |
+   | course_id(FK)  |            |
+   +----------------+            |
+                                 |
+   +-------------------+         |
+   |      Teaches      |         |
+   +-------------------+         |
+   | instructor_id(FK) |         |
+   | course_id(FK)     |         |
+   | teaching_term     |         |
+   +-------------------+         |
+                                 |
+   +-------------------+         |
+   |     Belongs To    |         |
+   +-------------------+         |
+   | department_id(FK) |         |
+   +-------------------+         |
+                                 |
+                                 |
+                                 |
